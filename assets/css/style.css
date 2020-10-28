@@ -68,6 +68,12 @@
     position: absolute;
     top: 5%;
     left: 15%;}
+
+.single-footer-widget {
+    display: grid !important;
+    justify-content: center;
+    align-items: center;
+}
 /*==============================================
    Base Css
 ===============================================*/
