@@ -782,7 +782,27 @@
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
-    
+ .fbec-process-hr{
+    display: none;
+ }  
+ .header-upper-left .logo a img {
+    width: 75px;
+}
+.about-style1-area {
+
+    padding: 20px 0 0px;
+}
+.partner-area {
+        padding-top: 25px;
+    padding-bottom: 25px;
+}
+.service-style1-area.style4 {
+    padding: 30px 0 30px;
+}
+.about-style1-text-box .title h1 {
+    font-size: 35px;
+    line-height: 30px;
+}
 .sec-title {
     padding-bottom: 46px;
 }    
@@ -997,10 +1017,10 @@
     text-align: center;
 }        
 .copyright-text {
-    padding: 20px 0;
+        padding: 8px 0;
     padding-right: 0px;
     width: 100%;
-}
+    font-size: 14px;}
 .footer-menu {
     padding: 24px 0 26px;
 }    
@@ -1229,7 +1249,8 @@
     
 /*** Latest Portfolio Style2 Area Css ***/ 
 .service-style1-area.style4 .title {
-    padding: 70px 0 70px;
+    /*padding: 70px 0 70px;*/
+    padding: 30px 0 30px;
 }    
 .service-style3-image-box {
     position: static;
@@ -1242,7 +1263,8 @@
 /*** Breadcrumb Area Css ***/ 
 .breadcrumb-area {
     padding: 155px 0 113px;
-    margin-top: 284px;
+    /*margin-top: 284px;*/
+    *margin-top: 150px;
 }
 .breadcrumb-area .title {
     margin: 0 0 21px;
