@@ -792,6 +792,9 @@
 
     padding: 20px 0 0px;
 }
+.team-member-content-box {
+        padding-bottom: 0px;
+}
 .partner-area {
         padding-top: 25px;
     padding-bottom: 25px;
@@ -908,14 +911,14 @@
 }    
 .about-style1-text-box {
     padding-left: 0px;
-    padding-top: 60px;
+    padding-top: 30px;
 }    
 .about-style1-text-box .title:before {
     display: none;
 } 
 .about-style1-text-box .title h1 {
-    font-size: 50px;
-    line-height: 58px;
+        font-size: 40px;
+    line-height: 50px;
     font-weight: 600;
     margin: 17px 0 0;
 }    
@@ -1264,13 +1267,13 @@
 .breadcrumb-area {
     padding: 155px 0 113px;
     /*margin-top: 284px;*/
-    margin-top: 150px;
+    margin-top: 120px;
 }
 .breadcrumb-area .title {
     margin: 0 0 21px;
 }    
 .breadcrumb-area .title h1 {
-    font-size: 50px;
+    font-size: 40px;
     line-height: 60px;
     font-weight: 600;
 }      
