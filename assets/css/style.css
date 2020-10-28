@@ -382,7 +382,7 @@ li{
     display: inline-block;
     width: 60px;
     height: 50px;
-    background: #798795;
+    background: #444444;
     border: 0px solid #f9f6f0;
     border-radius: 5px;
     color: #ffffff;
@@ -542,7 +542,7 @@ li{
     display: block;
 }
 .accordion-box .accordion .accord-content p {
-    color: #798795;
+    color: #444444;
     font-size: 16px;
     line-height: 32px;
     font-weight: 400;
@@ -1611,7 +1611,7 @@ select:focus {
     display: none;
 }
 .header-menu ul li a{
-    color: #798795;
+    color: #444444;
     font-size: 14px;
     font-weight: 400;
     line-height: 0;
@@ -2466,7 +2466,7 @@ select:focus {
     color: #000000;
 }
 .single-service-style1 .text-holder p{
-    color: #798795;
+    color: #444444;
     line-height: 24px;
     margin: 0 0 24px;
 }
@@ -2477,7 +2477,7 @@ select:focus {
     height: 40px;
     border-radius: 50%;
     margin: 0 auto;
-    color: #798795;
+    color: #444444;
     font-size: 16px;
     line-height: 40px;
     font-weight: 400;
@@ -2649,7 +2649,7 @@ select:focus {
     padding-top: 10px;
 }
 .about-style1-text-box p{
-    color: #798795;
+    color: #444444;
     font-size: 16px;
     line-height: 32px;
     font-weight: 400;
@@ -2709,7 +2709,7 @@ select:focus {
 }
 .about-style1-text-box .inner-contant p{
     margin: 0 0 25px;
-    color: #798795;
+    color: #444444;
     font-size: 16px;
     line-height: 32px;
     font-weight: 400;
@@ -3191,7 +3191,7 @@ select:focus {
 }
 .single-portfolio-style1 .img-holder .title-holder p{
     position: relative;
-    color: #798795;
+    color: #444444;
     font-size: 14px;
     line-height: 22px;
     margin: 0;
@@ -3304,7 +3304,7 @@ select:focus {
     z-index: 1;
 }
 .single-testimonial-style1 .text p{
-    color: #798795;
+    color: #444444;
     font-size: 18px;
     line-height: 32px;
     font-weight: 300;
@@ -3681,7 +3681,7 @@ select:focus {
     transition: all 500ms ease;
 }
 .single-blog-post .text-holder p{
-    color: #798795;
+    color: #444444;
     font-size: 18px;
     line-height: 32px;
     margin: 0;
@@ -3907,7 +3907,7 @@ select:focus {
     display: block;    
 }
 .single-footer-widget .our-company-info .text p{
-    color: #798795;
+    color: #444444;
     font-size: 16px;
     line-height: 32px;
     font-weight: 300;
@@ -3940,7 +3940,7 @@ select:focus {
     position: relative;
     display: block;
     padding-left: 10px;
-    color: #798795;
+    color: #444444;
     font-size: 16px;
     line-height: 32px;
     font-weight: 300;
@@ -3953,7 +3953,7 @@ select:focus {
     bottom: 10px;
     width: 2px;
     height: 2px;
-    background: #798795;
+    background: #444444;
     content: "";
     transition: all 200ms linear;
     transition-delay: 0.1s;
@@ -3996,7 +3996,7 @@ select:focus {
     padding-bottom: 14px;
 }
 .twitter-feed-box .text p{
-    color: #798795;
+    color: #444444;
     font-size: 16px;
     line-height: 32px;
     font-weight: 400;
@@ -4016,7 +4016,7 @@ select:focus {
     display: block;    
 }
 .twitter-feed-box .bottom .comments a{
-    color: #798795;
+    color: #444444;
     font-size: 14px;
     font-weight: 400;
 }
@@ -4125,7 +4125,7 @@ select:focus {
     display: none;
 }
 .footer-menu ul li a{
-    color: #798795;
+    color: #444444;
     font-size: 14px;
     font-weight: 400;
     line-height: 0;
@@ -4241,7 +4241,7 @@ select:focus {
     color: #010101;
 }
 .main-slider.style2 .content .text p {
-    color: #798795;
+    color: #444444;
 }
 .main-slider.style2 .content .btns-box .btn-two {
     color: #000000;
@@ -5350,7 +5350,7 @@ select:focus {
     width: 100%;
 }
 .top-single-service .right p{
-    color: #798795;
+    color: #444444;
     font-size: 18px;
     line-height: 32px;
     font-weight: 300;
@@ -5449,7 +5449,7 @@ select:focus {
     padding: 41px 100px 0;
 }
 .single-service-text-box p{
-    color: #798795;
+    color: #444444;
     font-size: 18px;
     line-height: 32px;
 }
@@ -5540,7 +5540,7 @@ select:focus {
     display: block;
 }
 .brochures-box ul li .right p{
-    color: #798795;
+    color: #444444;
     font-size: 14px;
     line-height: 20px;
     font-weight: 400;
@@ -5771,7 +5771,7 @@ select:focus {
     margin: -7px 0 11px;
 }
 .portfolio-single-content p{
-    color: #798795;
+    color: #444444;
     font-size: 18px;
     line-height: 32px;    
 }
@@ -5814,7 +5814,7 @@ select:focus {
     padding-top: 61px;
 }
 .single-portfolio-bottom-text p{
-    color: #798795;
+    color: #444444;
     font-size: 18px;
     line-height: 32px; 
     margin: 0;
@@ -5894,7 +5894,7 @@ select:focus {
     font-weight: 400;
 }
 .portfolio-details-content-box h2{
-    color: #000000;
+    color: #24396e;
     font-size: 24px;
     line-height: 34px;
     font-weight: 700;
@@ -5951,7 +5951,7 @@ select:focus {
     margin-right: 0px;
 }
 .social-share-box .social-links-style1 li a i {
-    color: #798795;
+    color: #444444;
     font-size: 18px;
 }
 .social-share-box .social-links-style1 li a i.fb{
@@ -6066,7 +6066,7 @@ select:focus {
     display: block;
 }
 .inner-comment-box .single-comment-box .text-holder .text p {
-    color: #798795;
+    color: #444444;
     font-size: 14px;
     line-height: 24px; 
     font-weight: 400;
@@ -6124,7 +6124,7 @@ select:focus {
 }
 .add-comment-box #add-comment-form {}
 .add-comment-box #add-comment-form p{
-    color: #798795;
+    color: #444444;
     font-size: 14px;
     line-height: 14px;
     font-weight: 400;
@@ -6233,7 +6233,7 @@ select:focus {
     margin: 0 0 6px;
 }
 .team-member-info-box .title span{
-    color: #798795;
+    color: #444444;
     font-size: 16px;
     font-weight: 400;
 }
@@ -6245,7 +6245,7 @@ select:focus {
     margin-top: 22px;
 }
 .team-member-info-box ul li {
-    color: #798795;
+    color: #444444;
     font-size: 18px;
     line-height: 40px;
     font-weight: 500;
@@ -6259,7 +6259,7 @@ select:focus {
     font-family: 'Poppins', sans-serif;
 }
 .team-member-info-box ul li a{
-    color: #798795;    
+    color: #444444;    
 }
 .team-member-info-box .social-links-style1 {
     margin-top: 36px;
@@ -6271,7 +6271,7 @@ select:focus {
     width: 40px;
     height: 40px;
     border-radius: 10px 20px 10px 20px;
-    color: #798795;
+    color: #444444;
     font-size: 16px;
     font-weight: 400;
     line-height: 40px;
@@ -6289,14 +6289,14 @@ select:focus {
     padding-bottom: 70px;
 }
 .team-member-content-box h3{
-    color: #000000;
+    color: #24396e;
     font-size: 24px;
     line-height: 30px;
     font-weight: 700;
     margin: 0 0 13px;
 }
 .team-member-content-box p{
-    color: #798795;
+    color: #444444;
     font-size: 16px;
     line-height: 32px;
     font-weight: 400;
@@ -6350,7 +6350,7 @@ select:focus {
     transform: translateY(-50%);
 }
 .progress-block .graph-outer .title h5{
-    color: #798795;
+    color: #444444;
     font-size: 16px;
     line-height: 20px;
     font-weight: 500;
@@ -6520,11 +6520,11 @@ select:focus {
     top: 1px;
     display: inline-block;
     padding-right: 9px;
-    color: #798795;
+    color: #444444;
     font-size: 18px;
 }
 .single-blog-post-style3 .text-holder .meta-info li a{
-    color: #798795;
+    color: #444444;
     font-size: 18px;
     font-weight: 300;
 }
@@ -6548,7 +6548,7 @@ select:focus {
     margin: 18px 0 18px;
 }
 .single-blog-post-style3 .text-holder p{
-    color: #798795;
+    color: #444444;
     font-size: 20px;
     line-height: 32px;
     font-weight: 300;
@@ -6590,7 +6590,7 @@ select:focus {
     display: inline-block;
     padding-right: 10px;
     top: 4px;
-    color: #798795;
+    color: #444444;
     font-size: 20px;
 }
 
@@ -6656,7 +6656,7 @@ select:focus {
     margin: 0 0 10px;
 }
 .single-blog-post-style3 .quote-box .title h4{
-    color: #798795;
+    color: #444444;
     font-size: 18px;
     line-height: 20px;
     font-weight: 500;
@@ -6823,7 +6823,7 @@ select:focus {
     overflow: hidden;
     padding: 10px 10px 8px;
     border-bottom: 1px solid #f2f2f2;
-    color: #798795;
+    color: #444444;
     font-size: 14px;
     line-height: 14px;
     font-weight: 400;
@@ -6871,7 +6871,7 @@ select:focus {
 .single-sidebar .project-box .project-lists li a{
     position: relative;
     display: block;
-    color: #798795;
+    color: #444444;
     line-height: 30px;
     font-size: 14px;
     font-weight: 400;
@@ -6904,7 +6904,7 @@ select:focus {
 .single-sidebar .ratting-box .ratting-lists li a{
     position: relative;
     display: block;
-    color: #798795;
+    color: #444444;
     line-height: 30px;
     font-size: 14px;
     font-weight: 400;
@@ -7025,7 +7025,7 @@ select:focus {
     padding-bottom: 41px;
 }
 .single-blog-post .text p{
-    color: #798795;
+    color: #444444;
     font-size: 18px;
     line-height: 32px;
     margin: 0;    
@@ -7050,7 +7050,7 @@ select:focus {
     padding-top: 11px;
 }
 .single-blog-post .bottom-text p{
-    color: #798795;
+    color: #444444;
     font-size: 18px;
     line-height: 32px;
     margin: 0;      
@@ -7104,13 +7104,13 @@ select:focus {
     line-height: 26px;
 }
 .single-contact-info-box .title ul li a{
-    color: #798795;
+    color: #444444;
     font-size: 16px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
 }
 .single-contact-info-box .title p{
-    color: #798795;
+    color: #444444;
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
@@ -7162,7 +7162,7 @@ select:focus {
     margin-bottom: 24px;
 }
 .contact-form form .input-box p {
-    color: #798795;
+    color: #444444;
     font-size: 14px;
     line-height: 14px;
     font-weight: 400;
@@ -7268,7 +7268,7 @@ select:focus {
     margin-top: -6px;
 }
 .contact-information-box .title p {
-    color: #798795;
+    color: #444444;
     font-size: 18px;
     line-height: 32px;
     font-weight: 300;
@@ -7299,14 +7299,14 @@ select:focus {
     vertical-align: middle;
 }
 .contact-information-box .contact-us li .text p{
-    color: #798795;
+    color: #444444;
     font-size: 16px;
     line-height: 28px;
     font-weight: 400;
     margin: 0;
 }
 .contact-information-box .contact-us li .text a{
-    color: #798795;
+    color: #444444;
     font-size: 16px;
     line-height: 28px;
     font-weight: 400;
@@ -7766,7 +7766,7 @@ select:focus {
 .single-product-item .title-holder .bottom .price-box del{
     position: relative;
     display: inline-block;
-    color: #798795;
+    color: #444444;
     font-size: 14px;
     line-height: 20px;
     font-weight: 400;
@@ -7831,8 +7831,8 @@ select:focus {
     transition-delay: 0.1s;
 }
 .view-as-box .icon ul li a:hover{
-    color: #798795;
-    border-color: #798795;
+    color: #444444;
+    border-color: #444444;
 }
 
 
@@ -7874,7 +7874,7 @@ select:focus {
     margin: 0;
     padding: 0;
     padding-left: 5px;
-    color: #798795 !important;
+    color: #444444 !important;
     font-size: 13px;
     line-height: 28px;
     box-shadow: none !important;
@@ -7889,7 +7889,7 @@ select:focus {
     height: 24px;
     font-family: 'FontAwesome';
     content: '\f107';
-    color: #798795;
+    color: #444444;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
@@ -7972,7 +7972,7 @@ select:focus {
     margin: 0;
     padding: 0;
     padding-left: 5px;
-    color: #798795 !important;
+    color: #444444 !important;
     font-size: 13px;
     line-height: 28px;
     box-shadow: none !important;
@@ -7987,7 +7987,7 @@ select:focus {
     height: 24px;
     font-family: 'FontAwesome';
     content: '\f107';
-    color: #798795;
+    color: #444444;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
@@ -8057,7 +8057,7 @@ select:focus {
 	display: inline-block;
 	width: 30px;
 	height: 30px;
-	color: #798795;
+	color: #444444;
 	font-size: 13px;
 	line-height: 28px;
 	font-weight: 400;
@@ -8268,7 +8268,7 @@ select:focus {
     position: relative;
     display: inline-block;
     padding-left: 20px;
-    color: #798795;
+    color: #444444;
     font-size: 13px;
     font-weight: 400;
 }
@@ -8300,7 +8300,7 @@ select:focus {
     top: -1px;
     display: inline-block;
     padding-left: 10px;
-    color: #798795;
+    color: #444444;
     font-size: 16px;
     line-height: 20px;
     font-weight: 400;
@@ -8321,7 +8321,7 @@ select:focus {
     position: relative;
     display: inline-block;
     padding-left: 10px;
-    color: #798795;
+    color: #444444;
     text-transform: uppercase;
 }
 
@@ -8385,7 +8385,7 @@ select:focus {
     padding-right: 10px;
 }
 .product-quantity-box .left h6{
-    color: #798795;
+    color: #444444;
     font-size: 13px;
     font-weight: 700;
     text-transform: capitalize;
@@ -8482,7 +8482,7 @@ select:focus {
     margin-top: 24px;
 }
 .single-shop-content .content-box .text p{
-    /*color: #798795;
+    /*color: #444444;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
@@ -8618,7 +8618,7 @@ select:focus {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    color: #798795;
+    color: #444444;
     font-size: 16px;
     line-height: 40px;
     -webkit-box-shadow: 0px 2px 0px 1px #e5e5e5; 
@@ -8736,7 +8736,7 @@ select:focus {
     padding-left: 20px;
     line-height: 28px;
     color: #444444;
-    font-size: 15px;
+    font-size: 16px;
     margin-bottom: 9px;
     font-weight: 500;
 }
@@ -9026,7 +9026,7 @@ select:focus {
     font-family: 'Poppins', sans-serif;
 }
 .product-description p{
-    color: #798795;
+    color: #444444;
     font-size: 13px;
     line-height: 24px;
     font-weight: 400;
@@ -9037,7 +9037,7 @@ select:focus {
     text-align: center;
 }
 .cart-area .cart-table tbody tr td.model p{
-    color: #798795;
+    color: #444444;
     font-size: 13px;
     font-weight: 400;
     margin: 0;
@@ -9054,7 +9054,7 @@ select:focus {
     margin: 10px 0;
 }
 .product-edit-delet-button .button a{
-    color: #798795;
+    color: #444444;
     font-size: 20px;
     transition: all 200ms linear;
     transition-delay: 0.1s;
@@ -9074,13 +9074,13 @@ select:focus {
 }
 
 .cart-area .cart-table tbody tr td.price {
-    color: #798795;
+    color: #444444;
     font-size: 13px;
     font-weight: 500;
     text-align: center;
 }
 .cart-area .cart-table tbody tr td.sub-total {
-    color: #798795;
+    color: #444444;
     font-size: 13px;
     font-weight: 500;
     text-align: center;
@@ -9143,7 +9143,7 @@ select:focus {
     width: 100%;
     height: 40px;
     background: #f3f3f3;
-    color: #798795;
+    color: #444444;
     font-size: 13px;
     font-weight: 600;
     transition: all 500ms ease 0s;
@@ -9166,16 +9166,16 @@ select:focus {
 }
 
 .estimate-form-box .input-box input[type="text"]::-webkit-input-placeholder {
-    color: #798795;
+    color: #444444;
 }
 .estimate-form-box .input-box input[type="text"]:-moz-placeholder {
-    color: #798795;
+    color: #444444;
 }
 .estimate-form-box .input-box input[type="text"]::-moz-placeholder {
-    color: #798795;
+    color: #444444;
 }
 .estimate-form-box .input-box input[type="text"]:-ms-input-placeholder {
-    color: #798795;
+    color: #444444;
 }
 
 
@@ -9219,7 +9219,7 @@ select:focus {
     width: 100%;
     height: 40px;
     background: #f3f3f3;
-    color: #798795;
+    color: #444444;
     font-size: 13px;
     font-weight: 600;
     transition: all 500ms ease 0s;
@@ -9241,16 +9241,16 @@ select:focus {
     transition-delay: 0.1s;
 }
 .discount-form-box .input-box input[type="text"]::-webkit-input-placeholder {
-    color: #798795;
+    color: #444444;
 }
 .discount-form-box .input-box input[type="text"]:-moz-placeholder {
-    color: #798795;
+    color: #444444;
 }
 .discount-form-box .input-box input[type="text"]::-moz-placeholder {
-    color: #798795;
+    color: #444444;
 }
 .discount-form-box .input-box input[type="text"]:-ms-input-placeholder {
-    color: #798795;
+    color: #444444;
 }
 
 
@@ -9359,7 +9359,7 @@ select:focus {
     padding-right: 10px;
 }
 .buyer-info .form-box .input-box p{
-    color: #798795;
+    color: #444444;
     font-size: 13px;
     line-height: 30px;
     font-weight: 600;
@@ -9371,7 +9371,7 @@ select:focus {
     width: 100%;
     height: 30px;
     background: #f3f3f3;
-    color: #798795;
+    color: #444444;
     font-size: 13px;
     font-weight: 500;
     border-radius: 5px;
@@ -9427,7 +9427,7 @@ select:focus {
 .billing-info .inner-box ul li{
     position: relative;
     display: block;
-    color: #798795;
+    color: #444444;
     font-size: 13px;
     line-height: 30px;
     font-weight: 500;
@@ -9474,7 +9474,7 @@ select:focus {
     border-top: none;    
 }
 .payment-info .inner-box p{
-    color: #798795;
+    color: #444444;
     font-size: 13px;
     line-height: 24px;
     font-weight: 500;
@@ -9541,7 +9541,7 @@ select:focus {
     padding-right: 10px;
 }
 .payment-input-box .input-box p{
-    color: #798795;
+    color: #444444;
     font-size: 13px;
     line-height: 30px;
     font-weight: 600;
@@ -9553,7 +9553,7 @@ select:focus {
     width: 100%;
     height: 30px;
     background: #f3f3f3;
-    color: #798795;
+    color: #444444;
     font-size: 13px;
     font-weight: 500;
     border-radius: 5px;
