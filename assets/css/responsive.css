@@ -1264,7 +1264,7 @@
 .breadcrumb-area {
     padding: 155px 0 113px;
     /*margin-top: 284px;*/
-    *margin-top: 150px;
+    margin-top: 150px;
 }
 .breadcrumb-area .title {
     margin: 0 0 21px;
