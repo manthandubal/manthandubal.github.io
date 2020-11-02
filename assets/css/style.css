@@ -2516,15 +2516,26 @@ select:focus {
     background: #f2f3f4;
     padding: 120px 0 0px;
 }
+.chairman-desk{
+    background-image: url(../images/about/Chairmans_Desk.jpg);
+    height: 450px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
 .about-style1-area.bg-white{
     background: #ffffff;
 }
+
 .about-style1-area .shape {
     position: absolute;
     left: -130px;
     bottom: -70px;
     right: 0px;
-    background: url(../images/shape/shape-1.png);
+    /*background: url(../images/shape/shape-1.png);*/
     width: 697px;
     height: 439px;
     content: "";
@@ -2727,6 +2738,18 @@ select:focus {
     Service Style2 Area style
 =============================================
 ***/
+
+/*STEEL STRUCTURES, BUILLDINGS AND BRIDGES*/
+
+ .real_img {
+            font-size: 25px;
+            color: #fff;
+            text-align: center;
+            line-height: 150px;
+            margin: auto;
+            margin-bottom: 2rem;
+        }
+
 .service-style2-area{
     position: relative;
     display: block;
@@ -3813,13 +3836,13 @@ select:focus {
 .footer-area {
     position: relative;
     display: block;
-    background:#08090c;
+    background:#00061a;
     z-index: 10;
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    background-blend-mode: overlay;
+    background-blend-mode: overlay;*/
 }
 /*.footer-icon{ height: 50px;  width: 50px;  margin: 0 auto;}*/
 .footer-icon-content{text-align: start;}
@@ -4749,7 +4772,7 @@ select:focus {
 }
 .slogan-content .title h1{
     color: #ffffff;
-    font-size: 48px;
+    font-size: 40px;
     line-height: 56px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
@@ -4762,6 +4785,7 @@ select:focus {
 .slogan-content .quote-button a {
     background: #ffffff;
     line-height: 70px;
+    border: 3px solid transparent;
 }
 .slogan-content .quote-button a:hover{
     color: #ffffff;
@@ -5214,12 +5238,12 @@ select:focus {
 ***/
 .breadcrumb-area {
     position: relative;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 155px 0 113px;
-    margin-top: 49px;
+    margin-top: 45px;
     z-index: 10;
 }
 .breadcrumb-area::before {
@@ -5906,10 +5930,10 @@ select:focus {
     display: block;    
 }
 .portfolio-details-content-box .text p{
-        color: #767676;
-    font-size: 20px;
-    line-height: 32px;
-    font-weight: 600;    
+        color: #6e6e6e;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;   
 }
 
 .project-info-box.style2 {
