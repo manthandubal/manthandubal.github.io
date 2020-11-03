@@ -55,7 +55,7 @@
     width: 80px;
 }
 .footer-logo img {
-    width: 70%;
+    width: 80%;
 }
 
 .single-service-style2 .img-holder .icon img{
@@ -2218,7 +2218,7 @@ select:focus {
     font-size: 24px;
     line-height: 1.0em;
     font-weight: 300;
-    text-transform: uppercase;
+    text-transform: capitalize;
 	opacity: 0;
 	-webkit-transition: all 1000ms ease;
 	-moz-transition: all 100ms ease;
@@ -2439,13 +2439,23 @@ select:focus {
     display: inline-block;
 }
 
-.single-service-style1 {
+/*.single-service-style1 {
     position: relative;
     display: block;
     text-align: center;
     width: 350px;
     margin: 0 auto 42px;
     box-shadow: 0px 0px 20px 0px #00000024;
+    border-radius: 15px;
+    padding: 25px;
+}*/
+.single-service-style1{
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 365px;
+    margin: 0 auto 30px;
+    box-shadow: 0px 0px 30px 0px #3f51b51f;
     border-radius: 15px;
     padding: 25px;
 }
@@ -3853,8 +3863,8 @@ select:focus {
     background-position: center;
     background-blend-mode: overlay;*/
 }
-/*.footer-icon{ height: 50px;  width: 50px;  margin: 0 auto;}*/
-.footer-icon-content{text-align: start;}
+.footer-icon{ /*height: 50px;*/  width: 40px;  margin: 0 auto;}
+.footer-icon-content{text-align: center;color: darkgrey;}
 
 @-webkit-keyframes bgSlideReverse {
   0% {
@@ -3900,7 +3910,7 @@ select:focus {
 .footer{
     position: relative;
     display: block;
-    padding: 80px 0;
+    padding: 60px 0;
     z-index: 1;
 }
 .single-footer-widget {
@@ -3929,7 +3939,7 @@ select:focus {
 .single-footer-widget .our-company-info .footer-logo {
     position: relative;
     display: block;
-    padding-bottom: 20px;
+    /*padding-bottom: 20px;*/
 }
 .single-footer-widget .our-company-info .footer-logo a{
     display: inline-block;
