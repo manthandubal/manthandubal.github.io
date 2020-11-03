@@ -7213,6 +7213,7 @@ select:focus {
 }
 
 .contact-form form input[type="text"],
+.contact-form form input[type="number"],
 .contact-form form input[type="email"],
 .contact-form form textarea{
     position: relative;
