@@ -37,15 +37,15 @@
 
 
 @import url(animate.css);
-@import url(bootstrap-select.min.css);
+/* @import url(bootstrap-select.min.css); */
 @import url(icomoon.css);
 @import url(jquery.bootstrap-touchspin.css);
-@import url(jquery.fancybox.min.css);
-@import url(jquery.mCustomScrollbar.min.css);
-@import url(nouislider.css);
-@import url(nouislider.pips.css);
-@import url(polyglot-language-switcher.css);
-@import url(timePicker.css);
+/* @import url(jquery.fancybox.min.css); */
+/* @import url(jquery.mCustomScrollbar.min.css); */
+/* @import url(nouislider.css);
+@import url(nouislider.pips.css); */
+/* @import url(polyglot-language-switcher.css); */
+/* @import url(timePicker.css); */
 @import url(slick.css);
 @import url(jquery.bxslider.css);
 
@@ -918,6 +918,7 @@ select:focus {
 #contact-form textarea.error{
     border-color: red;    
 }
+
 
 
 
