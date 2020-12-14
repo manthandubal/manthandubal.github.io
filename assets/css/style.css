@@ -55,7 +55,7 @@
     width: 80px;
 }
 .footer-logo img {
-    width: 80%;
+    width: 50%;
 }
 
 .single-service-style2 .img-holder .icon img{
@@ -1104,13 +1104,13 @@ select:focus {
     position: relative;
     display: block;
     background: #1a2b55;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 20%;
     color: #bdbdbd;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 50px;
+    line-height: 40px;
     text-align: center;
     transition: all 500ms ease;
 }
@@ -2218,7 +2218,7 @@ select:focus {
     position: relative;
     display: inline-block;
     color: #ffffff;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 1.0em;
     font-weight: 300;
     text-transform: capitalize;
@@ -2446,7 +2446,7 @@ select:focus {
     position: relative;
     display: block;
     text-align: center;
-    width: 350px;
+    /*width: 350px;*/
     margin: 0 auto 42px;
     box-shadow: 0px 0px 0px 0px #00000000!important;
     border-radius: 0px!important;
@@ -2457,7 +2457,7 @@ select:focus {
     position: relative;
     display: block;
     text-align: center;
-    width: 365px;
+    /*width: 365px;*/
     margin: 0 auto 30px;
     box-shadow: 0px 0px 30px 0px #3f51b51f;
     border-radius: 15px;
@@ -2569,6 +2569,8 @@ select:focus {
     max-width: 550px;
     width: 100%;
 }
+.custom-about-style-img{ margin: auto;  max-width: 330px;}
+.structure-about-image{max-width: 500px;margin: auto;}
 .about-style1-image-box .image-box1 {
     position: relative;
     display: block;
@@ -2583,7 +2585,7 @@ select:focus {
     right: 0;
     width: 170px;
     height: 300px;
-    background: url(../images/shape/border.png);
+    /*background: url(../images/shape/border.png);*/
     content: "";
     z-index: 1;
 }
@@ -2764,14 +2766,43 @@ select:focus {
 
 /*STEEL STRUCTURES, BUILLDINGS AND BRIDGES*/
 
- .real_img {
-            font-size: 25px;
-            color: #fff;
-            text-align: center;
-            line-height: 150px;
-            margin: auto;
-            margin-bottom: 2rem;
-        }
+.real_img {
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    line-height: 150px;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.real_mf_img {
+    height: 200px;
+    border-radius: 15px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2rem;
+    }
+
+.real_fbec_img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: #4aa94c;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    line-height: 150px;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+.real_corrugated_img{
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    line-height: 150px;
+    margin: auto;
+    margin-bottom: 2rem;
+}
 
 .service-style2-area{
     position: relative;
@@ -3070,7 +3101,7 @@ select:focus {
     position: relative;
     display: block;
     overflow: hidden;
-    max-width: 1090px;
+    max-width: 1130px;
     width: 100%;
     margin: 0 auto;
     border: 1px solid #ededed;
@@ -3181,12 +3212,13 @@ select:focus {
     left: 20px;
     bottom: -75px;
     right: 20px;
-    background: #ffffff;
+    background: #fcfcfc;
     display: block;
     padding: 26px 30px 27px;
     padding-right: 10px;
     border-radius: 5px;
-    z-index: 2;
+    z-index: 2;    
+    box-shadow: 0px 2px 5px #80808052;
 }
 .single-portfolio-style1 .img-holder .title-holder:before{
 	position: absolute;
@@ -3580,7 +3612,7 @@ select:focus {
     display: block;
     overflow: hidden;
     background: transparent;
-    padding-left: 25px;
+    padding-left: 0px;
     padding-top: 25px;
     padding-bottom: 25px;
     z-index: 1;
@@ -3868,7 +3900,7 @@ select:focus {
     background-blend-mode: overlay;*/
 }
 .footer-icon{ /*height: 50px;*/  width: 40px;  margin: 0 auto;}
-.footer-icon-content{text-align: center;color: darkgrey;}
+.footer-icon-content{text-align: center;color: #ffffff;}
 
 @-webkit-keyframes bgSlideReverse {
   0% {
@@ -4807,8 +4839,9 @@ select:focus {
 }
 .slogan-content .quote-button a {
     background: #ffffff;
-    line-height: 70px;
+    line-height: 50px;
     border: 3px solid transparent;
+    border-radius: 5px;
 }
 .slogan-content .quote-button a:hover{
     color: #ffffff;
@@ -5241,7 +5274,7 @@ select:focus {
 =============================================
 ***/
 .service-style1-area.style4{
-    padding: 60px 0 60px;    
+    padding: 30px 0 30px;    
 }
 .service-style1-area.style4 .title {
     padding: 70px 0 140px;
@@ -7174,11 +7207,13 @@ select:focus {
 ***/
 
 button.dropdown-toggle{
-    background: white!important;
-    color: #6c757d!important;
-    font-weight: 400!important;
-    border: 1px solid #dee2e6!important;
-    outline:0 !important;
+    background: #f7f7f7 !important;
+    color: #6c757d !important;
+    font-weight: 400 !important;
+    border: 1px solid #ededed !important;
+    outline:0  !important;
+    font-size: 16px !important;
+        padding: 10px 12px !important;
   }  
    /* button.dropdown-toggle:focus button.dropdown-toggle:active{
        outline: 0px solid transparent!important;
@@ -7227,7 +7262,7 @@ button.dropdown-toggle{
     margin-bottom: 24px;
 }
 .contact-form form .input-box p {
-    color: #444444;
+    color: #32a94b;
     font-size: 14px;
     line-height: 14px;
     font-weight: 400;
@@ -7240,7 +7275,7 @@ button.dropdown-toggle{
 .contact-form form textarea{
     position: relative;
     display: block;   
-    background: #ffffff;
+    background: #f7f7f7;
     border: 1px solid #ededed;
     width: 100%;
     height: 50px;
@@ -7254,8 +7289,8 @@ button.dropdown-toggle{
 }
 .contact-form form textarea {
     height: 150px;
-    padding-top: 17px;
-    padding-left: 30px;
+    padding-top: 12px;
+    padding-left: 12px;
     padding-right: 20px;
 }
 .contact-form form input[type="text"]:focus{
@@ -8718,7 +8753,8 @@ button.dropdown-toggle{
     position: relative;
     display: inline-block;
     float: left;
-    margin-right: 5px;
+    margin-right: 15px;
+    margin-bottom: 10px;
 }
 .product-tab-box .tab-btns .tab-btn:last-child{
     margin-right: 0;

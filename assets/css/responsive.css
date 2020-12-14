@@ -196,8 +196,7 @@
 .slogan-content .title {
     margin-bottom: 15px;
 }    
-
-    
+   
     
     
     
@@ -575,7 +574,7 @@
 .slogan-content .title {
     margin-bottom: 15px;
 }    
-
+   
     
         
     
@@ -783,9 +782,13 @@
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
 
+.slogan-content .quote-button a {  line-height: 50px;}
+
 .custom-font-size{
         font-size: 20px;
 }
+.portfolio-details-top-image .single-img-holder{margin-bottom: 15px;}
+.portfolio-details-content-box .text p{margin-bottom: 40px;}
  .fbec-process-hr{
     display: none;
  }  
@@ -794,10 +797,11 @@
 }
 .about-style1-area {
 
-    padding: 20px 0 0px;
+    padding: 50px 0 0px;
 }
 .team-member-content-box {
-        padding-bottom: 0px;
+    padding-bottom: 20px;
+    padding-top: 40px;
 }
 .partner-area {
         padding-top: 25px;
@@ -898,7 +902,7 @@
     display: none;
 }    
 .single-service-style1 {
-    margin: 0 auto 60px;
+    margin: 0 auto 40px;
 }    
        
 /*** About Style1 Area Css ***/
@@ -907,15 +911,16 @@
     bottom: 60px;
 }  
 .about-style1-image-box {
-    max-width: 320px;
-    margin: 20px auto;
+   max-width: 100%;
+    margin: auto;
+    padding-bottom: 30px;
 } 
 .about-style1-image-box .image-box1 {
-    width: 300px;
+    width: 100%;
 }    
 .about-style1-text-box {
     padding-left: 0px;
-    padding-top: 30px;
+    padding-top: 0px;
 }    
 .about-style1-text-box .title:before {
     display: none;
@@ -928,7 +933,8 @@
 }    
 .about-style1-text-box .title h1 br{
     display: none;
-}    
+}  
+.order-first{ order:1; }  
 
 /*** Service Style2 Area Css ***/    
 .single-service-style2 {
@@ -967,7 +973,7 @@
     
 /*** Latest Portfolio Area Css ***/       
 .latest-portfolio-area {
-    padding: 65px 0 120px;
+    padding: 65px 0;
 } 
 .project-filter {
     padding: 21px 0 2px;
@@ -1029,12 +1035,22 @@
     width: 100%;
     font-size: 14px;}
 .footer-menu {
-    padding: 24px 0 26px;
+    padding: 15px 0;
 }    
     
+.footer-logo img {
+    width: 30%;
+    margin-bottom: 30px;
+}  
     
-    
-    
+.copyright-text:before {
+    content: "";
+    -moz-transform: skew(0deg, 0deg);
+    -webkit-transform: skew(0deg, 0deg);
+    -o-transform: skew(0deg, 0deg);
+    -ms-transform: skew(0deg, 0deg);
+    transform: skew(0deg, 0deg);
+  }
     
 /*** Main Header Style2 Css ***/
 .header-upper-style2 {
@@ -1271,7 +1287,7 @@
 .breadcrumb-area {
     padding: 155px 0 113px;
     /*margin-top: 284px;*/
-    margin-top: 120px;
+    margin-top: 90px;
 }
 .breadcrumb-area .title {
     margin: 0 0 21px;
@@ -1432,6 +1448,8 @@
     line-height: 32px;
 }       
 
+.blog-single-quote-box {  padding: 70px 30px 50px;}
+
 /*** Contact Form Area Css ***/       
 .contact-information-box {
     padding-left: 0;
@@ -1444,6 +1462,10 @@
 } 
     
 /*** Shop Area Css ***/ 
+#shop-area.single-shop-area {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 .showing-result-shorting-box.pdbottom70 {
     padding-bottom: 40px;
 }
@@ -1468,7 +1490,8 @@
 }    
      
 .single-shop-content .content-box {
-    margin-top: 40px;
+    /*margin-top: 40px;*/
+    padding: 0 10px 0 10px;
 }  
 .single-product-image-holder .slider-pager {
     max-width: 260px;
@@ -1480,8 +1503,8 @@
     padding: 50px 20px 50px;
 }    
 .product-tab-box .tab-btns .tab-btn {
-    margin-right: 5px;
-    margin-bottom: 5px;
+    margin-right: 15px;
+    margin-bottom: 10px;
 }    
 .review-box-holder .single-review-box {
     padding-left: 0px;
