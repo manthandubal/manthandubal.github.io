@@ -907,15 +907,17 @@ select:focus {
     border-color: red;    
 }
 #contact-form input[type="email"].error{
-  border-color: red;    
+    border-color: red;    
+}
+#contact-form input[type="number"].error{
+    border-color: red;    
 }
 #contact-form select.error {
-  border-color: red;
+    border-color: red;
 }
 #contact-form textarea.error{
-  border-color: red;    
+    border-color: red;    
 }
-
 
 
 
