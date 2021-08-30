@@ -37,15 +37,15 @@
 
 
 @import url(animate.css);
-/* @import url(bootstrap-select.min.css); */
+@import url(bootstrap-select.min.css);
 @import url(icomoon.css);
 @import url(jquery.bootstrap-touchspin.css);
 @import url(jquery.fancybox.min.css);
-/* @import url(jquery.mCustomScrollbar.min.css); */
-/* @import url(nouislider.css);
-@import url(nouislider.pips.css); */
-/* @import url(polyglot-language-switcher.css); */
-/* @import url(timePicker.css); */
+@import url(jquery.mCustomScrollbar.min.css);
+@import url(nouislider.css);
+@import url(nouislider.pips.css);
+@import url(polyglot-language-switcher.css);
+@import url(timePicker.css);
 @import url(slick.css);
 @import url(jquery.bxslider.css);
 
@@ -55,7 +55,7 @@
     width: 80px;
 }
 .footer-logo img {
-    width: 50%;
+    width: 80%;
 }
 
 .single-service-style2 .img-holder .icon img{
@@ -141,7 +141,11 @@ img.lazy-image.loaded{
 	opacity: 1;
 }
 
-
+@media (max-width: 770px){
+    .footer-logo img {
+        width: 50%;
+    }
+}
 
 @media (min-width: 1200px) {
     .container {
@@ -687,9 +691,26 @@ header.main-header.box-layout {
 }
 
 
+ul.biofuel-ul{
+    margin: 0;
+    padding-left: 30px;
+}
+
+ul.biofuel-ul li{
+    list-style: square !important;
+    margin: 0;
+    margin-bottom: 10px;
+    color: #444444;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    text-align: justify;
+}
 
 
-
+ul.about-ul li{    
+    margin-bottom: 0px !important;   
+}
 
 
 
@@ -907,16 +928,13 @@ select:focus {
     border-color: red;    
 }
 #contact-form input[type="email"].error{
-    border-color: red;    
-}
-#contact-form input[type="number"].error{
-    border-color: red;    
+  border-color: red;    
 }
 #contact-form select.error {
-    border-color: red;
+  border-color: red;
 }
 #contact-form textarea.error{
-    border-color: red;    
+  border-color: red;    
 }
 
 
@@ -1096,8 +1114,8 @@ select:focus {
     position: relative;
     display: inline-block;
     float: left;
-    margin-right:25px;
-    margin-top: 25px;
+    margin-right:15px;
+    margin-top: 0px;
 }
 .social-links-style1 li:last-child{
     margin-right: 0px;
@@ -1109,7 +1127,7 @@ select:focus {
     background: #1a2b55;
     width: 40px;
     height: 40px;
-    border-radius: 20%;
+    border-radius: 50%;
     color: #bdbdbd;
     font-size: 18px;
     font-weight: 400;
@@ -2221,7 +2239,7 @@ select:focus {
     position: relative;
     display: inline-block;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 24px;
     line-height: 1.0em;
     font-weight: 300;
     text-transform: capitalize;
@@ -2449,7 +2467,7 @@ select:focus {
     position: relative;
     display: block;
     text-align: center;
-    /*width: 350px;*/
+    width: 350px;
     margin: 0 auto 42px;
     box-shadow: 0px 0px 0px 0px #00000000!important;
     border-radius: 0px!important;
@@ -2461,6 +2479,7 @@ select:focus {
     display: block;
     text-align: center;
     /*width: 365px;*/
+    width: 100%;
     margin: 0 auto 30px;
     box-shadow: 0px 0px 30px 0px #3f51b51f;
     border-radius: 15px;
@@ -2573,7 +2592,6 @@ select:focus {
     width: 100%;
 }
 .custom-about-style-img{ margin: auto;  max-width: 330px;}
-.structure-about-image{max-width: 500px;margin: auto;}
 .about-style1-image-box .image-box1 {
     position: relative;
     display: block;
@@ -2588,7 +2606,7 @@ select:focus {
     right: 0;
     width: 170px;
     height: 300px;
-    /*background: url(../images/shape/border.png);*/
+    background: url(../images/shape/border.png);
     content: "";
     z-index: 1;
 }
@@ -2769,43 +2787,14 @@ select:focus {
 
 /*STEEL STRUCTURES, BUILLDINGS AND BRIDGES*/
 
-.real_img {
-    font-size: 25px;
-    color: #fff;
-    text-align: center;
-    line-height: 150px;
-    margin: auto;
-    margin-bottom: 2rem;
-}
-
-.real_mf_img {
-    height: 200px;
-    border-radius: 15px;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 2rem;
-    }
-
-.real_fbec_img {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    background: #4aa94c;
-    font-size: 25px;
-    color: #fff;
-    text-align: center;
-    line-height: 150px;
-    margin: auto;
-    margin-bottom: 2rem;
-}
-.real_corrugated_img{
-    font-size: 25px;
-    color: #fff;
-    text-align: center;
-    line-height: 150px;
-    margin: auto;
-    margin-bottom: 2rem;
-}
+ .real_img {
+            font-size: 25px;
+            color: #fff;
+            text-align: center;
+            line-height: 150px;
+            margin: auto;
+            margin-bottom: 2rem;
+        }
 
 .service-style2-area{
     position: relative;
@@ -3104,7 +3093,7 @@ select:focus {
     position: relative;
     display: block;
     overflow: hidden;
-    max-width: 1130px;
+    max-width: 1120px;
     width: 100%;
     margin: 0 auto;
     border: 1px solid #ededed;
@@ -3115,7 +3104,7 @@ select:focus {
     position: relative;
     display: block;
     text-align: center;
-    padding: 21px 0 22px;
+    padding: 22px 0 22px;
 }
 .project-filter li {
     position: relative;
@@ -3215,13 +3204,13 @@ select:focus {
     left: 20px;
     bottom: -75px;
     right: 20px;
-    background: #fcfcfc;
+    background: #ffffff;
     display: block;
     padding: 26px 30px 27px;
     padding-right: 10px;
     border-radius: 5px;
-    z-index: 2;    
-    box-shadow: 0px 2px 5px #80808052;
+    z-index: 2;
+    box-shadow:0px 5px 30px 0px #e4e4e470;
 }
 .single-portfolio-style1 .img-holder .title-holder:before{
 	position: absolute;
@@ -3245,7 +3234,9 @@ select:focus {
     font-weight: 400;
     text-transform: uppercase;
     transition: all 0.2s ease-in-out 0.3s;
-}
+    background: #5ad570;
+    color: white;
+    }
 .single-portfolio-style1:hover .img-holder .title-holder span.tag{
     color: #ffffff; 
     background: rgba(255, 255, 255, 0.20);
@@ -3615,7 +3606,7 @@ select:focus {
     display: block;
     overflow: hidden;
     background: transparent;
-    padding-left: 0px;
+    padding-left: 25px;
     padding-top: 25px;
     padding-bottom: 25px;
     z-index: 1;
@@ -3903,7 +3894,7 @@ select:focus {
     background-blend-mode: overlay;*/
 }
 .footer-icon{ /*height: 50px;*/  width: 40px;  margin: 0 auto;}
-.footer-icon-content{text-align: center;color: #ffffff;}
+.footer-icon-content{text-align: center;color: darkgrey;}
 
 @-webkit-keyframes bgSlideReverse {
   0% {
@@ -4191,7 +4182,7 @@ select:focus {
 }
 .footer-menu ul li:last-child{
     padding-right: 0;
-    margin-right: 0;
+    margin-right: 40px;
 }
 .footer-menu ul li:before {
     position: absolute;
@@ -4270,7 +4261,7 @@ select:focus {
 
 .menu-right-content {
     position: relative;
-    display: block;
+    display: none;
     float: right;
 }
 .menu-right-content .outer-search-box-style1 {
@@ -4842,9 +4833,8 @@ select:focus {
 }
 .slogan-content .quote-button a {
     background: #ffffff;
-    line-height: 50px;
+    line-height: 70px;
     border: 3px solid transparent;
-    border-radius: 5px;
 }
 .slogan-content .quote-button a:hover{
     color: #ffffff;
@@ -5277,7 +5267,7 @@ select:focus {
 =============================================
 ***/
 .service-style1-area.style4{
-    padding: 30px 0 30px;    
+    padding: 60px 0 60px;    
 }
 .service-style1-area.style4 .title {
     padding: 70px 0 140px;
@@ -7201,7 +7191,9 @@ select:focus {
     font-family: 'Poppins', sans-serif;    
 }
 
-
+.bootstrap-select>.dropdown-toggle {
+    padding: 12px!important;
+}
 
 /*** 
 =============================================
@@ -7210,13 +7202,11 @@ select:focus {
 ***/
 
 button.dropdown-toggle{
-    background: #f7f7f7 !important;
-    color: #6c757d !important;
-    font-weight: 400 !important;
-    border: 1px solid #ededed !important;
-    outline:0  !important;
-    font-size: 16px !important;
-        padding: 10px 12px !important;
+    background: white!important;
+    color: #6c757d!important;
+    font-weight: 400!important;
+    border: 1px solid #dee2e6!important;
+    outline:0 !important;
   }  
    /* button.dropdown-toggle:focus button.dropdown-toggle:active{
        outline: 0px solid transparent!important;
@@ -7262,14 +7252,15 @@ button.dropdown-toggle{
 .contact-form form .input-box{
     position: relative;
     display: block;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 .contact-form form .input-box p {
-    color: #32a94b;
+    color: #444444;
     font-size: 14px;
     line-height: 14px;
     font-weight: 400;
     margin: 0 0 8px;
+    display: none;
 }
 
 .contact-form form input[type="text"],
@@ -7278,7 +7269,7 @@ button.dropdown-toggle{
 .contact-form form textarea{
     position: relative;
     display: block;   
-    background: #f7f7f7;
+    background: #ffffff;
     border: 1px solid #ededed;
     width: 100%;
     height: 50px;
@@ -7330,6 +7321,30 @@ button.dropdown-toggle{
     color: #8c8376;
 }
 .contact-form form input[type="email"]:-ms-input-placeholder {
+    color: #8c8376;
+}
+.contact-form form input[type="number"]::-webkit-input-placeholder {
+    color: #8c8376;
+}
+.contact-form form input[type="number"]:-moz-placeholder {
+    color: #8c8376;
+}
+.contact-form form input[type="number"]::-moz-placeholder {
+    color: #8c8376;
+}
+.contact-form form input[type="number"]:-ms-input-placeholder {
+    color: #8c8376;
+}
+.contact-form form select::-webkit-input-placeholder {
+    color: #8c8376;
+}
+.contact-form form select:-moz-placeholder {
+    color: #8c8376;
+}
+.contact-form form select::-moz-placeholder {
+    color: #8c8376;
+}
+.contact-form form select:-ms-input-placeholder {
     color: #8c8376;
 }
 .contact-form form textarea::-webkit-input-placeholder {
@@ -8756,8 +8771,7 @@ button.dropdown-toggle{
     position: relative;
     display: inline-block;
     float: left;
-    margin-right: 15px;
-    margin-bottom: 10px;
+    margin-right: 5px;
 }
 .product-tab-box .tab-btns .tab-btn:last-child{
     margin-right: 0;
@@ -8841,7 +8855,7 @@ button.dropdown-toggle{
     padding-left: 20px;
     line-height: 28px;
     color: #444444;
-    font-size: 16px;
+    font-size: 15px;
     margin-bottom: 9px;
     font-weight: 500;
 }
