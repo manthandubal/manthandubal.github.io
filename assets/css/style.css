@@ -2838,6 +2838,7 @@ select:focus {
     position: relative;
     display: block;
     overflow: hidden;
+    border-radius: 5px;
 }
 .single-service-style2 .img-holder img{
     width: 100%;
@@ -2863,17 +2864,23 @@ select:focus {
     transform: perspective(1200px) rotateX(0deg);
     transform-origin: bottom;
     transition: all 700ms ease 100ms;	
+    border-radius: 5px;
 }
 .single-service-style2:hover .img-holder .static-content{
-    transform: perspective(1200px) rotateX(90deg); 
-    transition: all 700ms ease 200ms;	
+    /*transform: perspective(1200px) rotateX(90deg); */
+    transition: all 700ms;	
+    background: #32a94b;
+    border: 1px solid white;
 }
 
+.single-service-style2:hover .img-holder .static-content .title h3 a {
+    color: #ffffff;
+}
 
 .single-service-style2 .img-holder .static-content .title{
     position: relative;
     display: block;
-    padding-left: 35px;
+    padding-left: 0px;
 }
 .single-service-style2 .img-holder .static-content .title:before {
     position: absolute;
@@ -2884,6 +2891,7 @@ select:focus {
     height: 15px;
     content: "";
     margin: 7px 0 8px;
+    visibility: hidden;
 }
 .single-service-style2 .img-holder .static-content .title h3{
     font-size: 18px;
@@ -2895,8 +2903,9 @@ select:focus {
 }
 .single-service-style2 .img-holder .static-content .icon {
     position: absolute;
-    bottom: -5px;
-    right: -5px;
+    /*bottom: -5px;*/
+    right: 3px;
+    border-radius: 5px;
 }
 .single-service-style2 .img-holder .static-content .icon a {
     position: relative;
@@ -2908,6 +2917,7 @@ select:focus {
     font-size: 40px;
     line-height: 70px;
     font-weight: 300;
+     border-radius: 5px;
 }
 
 .single-service-style2 .overlay-content {
@@ -3200,7 +3210,7 @@ select:focus {
 }
 
 .single-portfolio-style1 .img-holder .title-holder {
-    position: absolute;
+    /*position: absolute;
     left: 20px;
     bottom: -75px;
     right: 20px;
@@ -3210,7 +3220,18 @@ select:focus {
     padding-right: 10px;
     border-radius: 5px;
     z-index: 2;
-    box-shadow:0px 5px 30px 0px #e4e4e470;
+    box-shadow:0px 5px 30px 0px #e4e4e470;*/
+    position: absolute;
+        left: 20px;
+        bottom: -40px;
+        right: 20px;
+        background: #e0e0e0;
+        display: block;
+        padding: 10px 30px;
+        padding-right: 10px;
+        border-radius: 5px;
+        z-index: 2;
+        box-shadow: 0px 5px 30px 0px #e4e4e4;
 }
 .single-portfolio-style1 .img-holder .title-holder:before{
 	position: absolute;
@@ -3220,7 +3241,7 @@ select:focus {
 	height:0px;
 	content:'';
     border-radius: 5px;
-	transition: all 700ms ease;
+	transition: all 200ms ease;
 }
 .single-portfolio-style1:hover .img-holder .title-holder:before{
 	height:100%;
@@ -3252,11 +3273,11 @@ select:focus {
 }
 .single-portfolio-style1 .img-holder .title-holder h5 a{
     color: #24396e;
-    transition: all 0.2s ease-in-out 0.3s;
+    transition: all 200ms ease;
 }
 .single-portfolio-style1:hover .img-holder .title-holder h5 a{
     color: #ffffff;
-    transition: all 0.5s ease-in-out 0.6s;    
+    transition: all 200ms ease;    
 }
 .single-portfolio-style1 .img-holder .title-holder h5 a:hover{
     color: #000000;    
@@ -3617,7 +3638,7 @@ select:focus {
 }
 .single-team-member .title-holder .inner .left h3{
     color: #000000;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 26px;
     font-weight: 700;
     text-align: center;
@@ -4996,8 +5017,8 @@ select:focus {
 .video-galler-outer-bg .title-holder {
     position: relative;
     display: block;
-    margin-top: -9px;
-    padding-top: 30px;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 .video-galler-outer-bg .title-holder .icon {
     position: absolute;
@@ -5411,7 +5432,7 @@ select:focus {
 }
 .top-single-service .left h2{
     color: #000000;
-    font-size: 48px;
+    font-size: 40px;
     line-height: 58px;
     font-weight: 700;
 }
@@ -8259,7 +8280,7 @@ button.dropdown-toggle{
 .single-product-image-holder .slider-pager {
     position: relative;
     display: block;
-    max-width: 460px;
+    max-width: 100%;
     width: 100%;
     padding: 0 31px;
 }
@@ -8267,14 +8288,15 @@ button.dropdown-toggle{
     position: relative;
     display: block;
     overflow: hidden;
-    margin-left: -5px;
+    /*margin-left: -5px;*/
     margin-right: -5px;
 }
 .single-product-image-holder .slider-pager .thumb-box li {
     position: relative;
     display: inline-block;
     float: left;
-    margin: 0 5px 10px;
+    margin: 10px 5px 10px;
+    max-width: 24%;
 }
 .single-product-image-holder .slider-pager .thumb-box li a{
     position: relative;
@@ -8759,7 +8781,7 @@ button.dropdown-toggle{
     margin-top: 52px;
     border: 1px solid #ededed;
     padding: 50px 50px 50px;
-    background: #f2f2f2;
+    background: #f9f9f9;
 }
 .product-tab-box .tab-btns {
     position: relative;
@@ -8780,6 +8802,7 @@ button.dropdown-toggle{
     position: relative;
     display: block;
     background: #ffffff;
+    border: 1px solid #e1e1e1;
     border-radius: 5px;
     cursor: pointer;
     margin: 0;
@@ -9825,12 +9848,6 @@ button.dropdown-toggle{
     border: 1px solid #1d1d1d;    
 }
 
-
-
-
-
-
-
 #ui-datepicker-div.ui-widget-content {
     border: 1px solid #c5c5c5;
     background: #fff none repeat scroll 0 0;
@@ -9907,3 +9924,22 @@ button.dropdown-toggle{
     color: #fff;
     border-color: #43c3ea;
 }
+@media only screen and (max-width: 767px) {
+    .owl-carousel .owl-item img {
+        width: 100% !important;
+    }
+}
+
+
+.mf_sub_categoryTitle{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #5ad570;
+}
+
+.mf_sub_categoryMainTitle{
+        color: #24396e!important;
+        }

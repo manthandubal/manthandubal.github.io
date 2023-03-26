@@ -225,7 +225,7 @@ color:#5ad570;
 
 
 .video-galler-outer-bg:before {
-    background-color: rgba(253, 93, 19, 0.80);
+    background-color: rgba(3, 13, 40, 1);
 }
 .main-slider .content h3:before{
     /*background: #4caf508a;*/
@@ -234,7 +234,7 @@ color:#5ad570;
     background-color: rgba(253, 93, 19, 0.50);
 }
 .single-product-image-holder .slider-pager .thumb-box li .img-holder:before{
-    background-color: rgba(253, 93, 19, 0.70);
+    background-color: rgba(3, 13, 40, 0.70);
 }
 
 
