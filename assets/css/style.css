@@ -2853,14 +2853,14 @@ select:focus {
     left: 5px;
     bottom: 5px;
     right: 5px;
-    min-height: 75px;
+    min-height: 50px;
     background: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding-left: 25px;
+    padding-left: 12px;
     transform: perspective(1200px) rotateX(0deg);
     transform-origin: bottom;
     transition: all 700ms ease 100ms;	
@@ -2894,8 +2894,8 @@ select:focus {
     visibility: hidden;
 }
 .single-service-style2 .img-holder .static-content .title h3{
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 14px;
+    line-height: 18px;
     font-weight: 600;
 }
 .single-service-style2 .img-holder .static-content .title h3 a{
@@ -2910,12 +2910,12 @@ select:focus {
 .single-service-style2 .img-holder .static-content .icon a {
     position: relative;
     display: block;
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 45px;
     text-align: center;
     color: #ffffff;
-    font-size: 40px;
-    line-height: 70px;
+    font-size: 25px;
+    line-height: 45px;
     font-weight: 300;
      border-radius: 5px;
 }
@@ -9942,4 +9942,60 @@ button.dropdown-toggle{
 
 .mf_sub_categoryMainTitle{
         color: #24396e!important;
-        }
+   }
+
+
+  .resp-tab-content {
+    border-top: solid #e0e0e0!important;
+    border-width: 1px 0 0 0!important;
+}
+
+.resp-tab-item {
+    border-bottom: 3px solid #32a94b00;
+    background-color: #fff;
+    margin-bottom: 0px !important;
+    border: 0!important;
+
+}
+.resp-tab-active {
+    border-bottom: 3px solid #32a94b!important;
+    background-color: #fff;
+    margin-bottom: 0px !important;
+
+}
+
+@media only screen and (max-width: 767px){
+
+	h2.resp-tab-active span.resp-arrow {
+    border: none;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 8px solid #ffffff;
+	}
+
+	h2.resp-tab-active {
+    background: #32a94b !important;
+    border-radius: 3px 3px 0 0;
+    color: white;
+	}
+
+	.resp-tab-content {
+    border: solid #e0e0e0!important;
+    border-width: 1px 1px!important;
+	}
+
+	h2.resp-tab-active {
+    background: #32a94b !important;
+	}
+
+	.resp-arrow {
+    width: 0;
+    height: 0;
+    float: right;
+    margin-top: 3px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 8px solid #32a94b;
+	}
+}
+
