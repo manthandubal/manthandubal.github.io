@@ -2881,6 +2881,7 @@ select:focus {
     position: relative;
     display: block;
     padding-left: 0px;
+    width: 76%;
 }
 .single-service-style2 .img-holder .static-content .title:before {
     position: absolute;
@@ -2897,7 +2898,6 @@ select:focus {
     font-size: 14px;
     line-height: 18px;
     font-weight: 600;
-    width: 76%;
 }
 .single-service-style2 .img-holder .static-content .title h3 a{
     color: #000000;    
