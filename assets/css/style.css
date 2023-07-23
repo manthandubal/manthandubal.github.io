@@ -2897,6 +2897,7 @@ select:focus {
     font-size: 14px;
     line-height: 18px;
     font-weight: 600;
+    width: 76%;
 }
 .single-service-style2 .img-holder .static-content .title h3 a{
     color: #000000;    
@@ -8356,13 +8357,13 @@ button.dropdown-toggle{
 .single-product-image-holder .slider-pager ul.nav-link li a {
     position: relative;
     display: block;
-    background: #ffffff;
+    background: #f5f5f5;
     width: 30px;
     height: 30px;
     border-radius: 0%;
-    color: #848484;
+    color: #000000;
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 28px;
     border: 1px solid #eeeeee;
     transition: .5s ease;
@@ -8870,7 +8871,7 @@ button.dropdown-toggle{
     display: block;
     overflow: hidden;
     margin-top: 13px;
-    padding-left: 20px;
+    padding-left: 4px;
 }
 .product-details-content .desc-content-box .bottom ul li{
     position: relative;
@@ -8887,10 +8888,10 @@ button.dropdown-toggle{
     top: 0;
     left: 0;
     bottom: 0;
-    width: 10px;
-    height: 10px;
-    border: 1px solid #000000;
-    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    border: 2px solid #32a94b;
+    border-radius: 30%;
     content: "";
     margin: 10px 0;
 }
@@ -9997,5 +9998,31 @@ button.dropdown-toggle{
     border-right: 6px solid transparent;
     border-top: 8px solid #32a94b;
 	}
+
+    .single-product-image-holder .slider-pager .thumb-box li {
+        max-width: 20%!important;
+    }
+
+    .single-product-image-holder .slider-pager ul.nav-link {
+        position: absolute;
+        top: -50px!important;
+    }
 }
+
+
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+
+    .single-product-image-holder .slider-pager .thumb-box li {
+        max-width: 23%!important;
+    }
+
+    .single-product-image-holder .slider-pager ul.nav-link {
+        position: absolute;
+        top: -65px!important;
+    }
+
+}
+
+
+
 
