@@ -1529,7 +1529,31 @@
 } 
 .product-tab-box {
     padding: 50px 20px 50px;
-}    
+}  
+
+.arrow-light::after {
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 61px;
+    font-weight: 600;
+    content: '>';
+    color: #b3b3b3;
+}
+
+.product-tab-box .tab-btns{
+    display: inline-flex;
+    overflow-x: scroll;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 15px;    
+    padding-bottom: 10px;
+}
+
+.product-tab-box .tab-btns .tab-btn span{
+    white-space: nowrap;
+}
+
 .product-tab-box .tab-btns .tab-btn {
     margin-right: 5px;
     margin-bottom: 5px;
