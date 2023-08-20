@@ -983,3 +983,21 @@ jQuery(window).on('load', function() {
 
 
 $(window).enllax();
+
+$(document).on('ready', function () {
+    /**
+     * This section of script is used to directly show requested tab on the page
+     */
+    var requested_url = window.location.href;
+    var requested_tab = (requested_url.indexOf('#') == -1 ? '' : requested_url.substring(
+        requested_url.indexOf('#') + 1));
+    if (requested_tab != '' && $('#' + requested_tab).length > 0) {
+        /* Below is used to remove currently active tab*/
+        $('.tab').removeClass('active-tab');
+        $('.tab-btn').removeClass('active-btn');
+        /* Below is used to set requested tab as active tab*/
+        $('#' + requested_tab).addClass('active-tab');
+        /* Below is used show active tab*/
+        $('li[data-tab="#' + requested_tab + '"]').addClass('active-btn');
+    }
+})
