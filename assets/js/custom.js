@@ -709,6 +709,19 @@ if ($('.single-product-image-holder .bxslider2').length) {
         pagerCustom: '.single-product-image-holder .slider-pager .thumb-box'
     });
 };
+
+if ($('.single-product-image-holder .bxslider3').length) {
+	$('.single-product-image-holder .bxslider3').bxSlider({
+        nextSelector: '.single-product-image-holder #slider-next',
+        prevSelector: '.single-product-image-holder #slider-prev',
+        nextText: '<i class="fa fa-angle-right"></i>',
+        prevText: '<i class="fa fa-angle-left"></i>',
+        mode: 'horizontal',
+        auto: 'true',
+        speed: '700',
+        pagerCustom: '.single-product-image-holder .slider-pager .thumb-box'
+    });
+};
 	
 
 

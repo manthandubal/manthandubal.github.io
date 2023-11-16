@@ -8897,7 +8897,11 @@ button.dropdown-toggle{
     margin: 10px 0;
 }
 
-
+.note-box{
+    background: #f6faff;
+    color: #007bff!important;
+    border: 1px solid #007bff;
+}
 
 .product-tab-box .review-form {
     position: relative;
