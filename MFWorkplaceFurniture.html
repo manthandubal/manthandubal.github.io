@@ -1127,6 +1127,27 @@
        
 </script>
 
+<script>
+    $('.tab-btn').on('click', function () {
+        /**
+        * This section of the script is used to activate hidden Slider on tab click by changing the required CSS
+        */
+
+        let old_custom_slider_main_div = $('.tab.active-tab').find('.bx-viewport')
+        let old_custom_slider_main_css = old_custom_slider_main_div.attr('style')
+        let old_custom_slider_image_div_height = old_custom_slider_main_div.find('.bxslider').find('div').height()
+        let old_custom_slider_image_div_width = old_custom_slider_main_div.find('.bxslider').find('div').width()
+        let new_tab_content_div_id = $(this).attr('data-tab')
+        let new_tab_slider = $(new_tab_content_div_id).find('.bx-wrapper')
+        if (new_tab_slider.length > 0) {
+            let new_slider_main_div = new_tab_slider.find('.bx-viewport')
+            new_slider_main_div.attr('style', old_custom_slider_main_css)
+            new_slider_main_div.find('.bxslider div').not('.bx-caption').css('height', old_custom_slider_image_div_height)
+            new_slider_main_div.find('.bxslider div').not('.bx-caption').css('width', old_custom_slider_image_div_width)
+        }
+    });
+</script>
+
 </body>
 
 
