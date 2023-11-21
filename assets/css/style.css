@@ -5433,8 +5433,8 @@ select:focus {
 }
 .top-single-service .left h2{
     color: #000000;
-    font-size: 40px;
-    line-height: 58px;
+    font-size: 38px;
+    line-height: 52px;
     font-weight: 700;
 }
 .top-single-service .right{
@@ -10030,6 +10030,12 @@ button.dropdown-toggle{
 
 .fw-500{
     font-weight:500!important;
+}
+
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    position: absolute;
+    bottom: -50px!important;
+    width: 100%;
 }
 
 
